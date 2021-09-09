@@ -1,10 +1,8 @@
 ## Estimate Pi with Using Monte Carlo Integration
 
-
 ## Recall that the area of a circle is A = pi*r^2
 ## Thus, a circle of radius 1 has an area of pi
 ## To estimate pi, we can just approximate the area of a circle with radius 1
-
 
 ## By way of analogy, imagine you are firing a shotgun at a square paper target (say 1 ft x 1 ft)
 
@@ -34,7 +32,6 @@ curve(sqrt(1-x^2),add=T)
 ## The area of a quarter circle with radius 1 is therefore a quarter of pi, pi/4
 
 ## Thus, the proportion of shots that fall inside the curve should approximate pi/4
-
 
 ## Remember, x^2+y^2=1 traces out the curve of the circle. 
 ## If x^2+y^2 < 1, that means the point (x,y) is inside of the circle!
@@ -70,7 +67,6 @@ curve(sqrt(1-x^2),add=T)
 
 ## How does sample size affect the approximation?
 ## Let's compute the estimate for N=1 up to N=50,000 and plot it.
-
 
 ## This bit of code is a little tricky: See if you can parse it
 ## It might take a few seconds to run so be patient!
